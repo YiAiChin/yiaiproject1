@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>API Example</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+
+var accessToken = 53272ef400b7461aae070eb696fc042f,
+    baseUrl = "https://api.api.ai/v1/",
+    $speechInput,
+    $recBtn,
+    recognition,
+    messageRecording = "Recording...",
+    messageCouldntHear = "I couldn't hear you, could you say that again?",
+    messageInternalError = "Oh no, there has been an internal server error",
+    messageSorry = "I'm sorry, I don't have the answer to that yet.";
